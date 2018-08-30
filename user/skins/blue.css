@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/*----*****---- << Headings >> ----*****----*/
+	
+	#home .main-title { background:url(../images/blue/title-border.png) center bottom no-repeat; }
+
+	/*----*****---- << Sprite icons background >> ----*****----*/
+	
+	.rounded-icon span { background:url(../images/blue/home-icons.png) no-repeat; }	
+	
+	/*----*****---- << Text Elements >> ----*****----*/
+	
+	.content.dark-bg .hr { background:#393439; }	
+
+		/*----*****---- << Home >> ----*****----*/
+		
+		#home { background:#1461a2 url(../images/blue/home-mountain-bg.png) center bottom no-repeat; }
+		
+		.home-shadow { background:url(../images/blue/home-bg-shadow.png) repeat-x; }
+		
+		.work-flow { background:url(../images/blue/workflow-sep.png) 182px 60px no-repeat; }
+		
+		.rounded-icon span { border:5px solid #11538b; }		
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		
+		.portfolio-image .image-overlay { background:url(../images/blue/image-overlay-bg.png) no-repeat; }
+
+	/*----*****---- << Main >> ----*****----*/
+	
+	.content.dark-bg { background:url(../images/blue/dark-bg.jpg) repeat; }
+	
+		/*----*****---- << About >> ----*****----*/
+		
+		.testimonial-wrapper .rounded-image span { border:5px solid #393439; }
+	
+		.testimonial-content-wrapper { background:url(../images/blue/testimonial-arrow.png) left 30px no-repeat; }
+		.testimonial-content { background:#393439 url(../images/quote.png) 95% 85% no-repeat; border-bottom:2px solid #504d4c; }
+		
+		.testimonial-slider-arrows a { color:#3c3942; }
+		
+		/*----*****---- << Blog >> ----*****----*/
+		
+		.blog-entry .entry-metadata { background:#393439; }
+		
+		.slider-controls a.prev-posts, .slider-controls a.next-posts { color:#717171; }
+		
+		.slider-controls #pager a { background:#717171; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		
+		.portfolio-image .image-overlay a.zoom .icon-plus, .portfolio-image .image-overlay a.link .icon-link { color:#5783ae; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		
+		.dark-box { background:#393439; }
+		
+		/*----*****---- << Footer >> ----*****----*/
+		
+		#footer { background:#252525; }

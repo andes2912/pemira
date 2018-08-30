@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----*****---- << Responsive >> ----*****----*/
+
+	/*----*****---- << Tablet (Portrait) >> ----*****----*/	
+	
+    /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
+
+    @media only screen and (min-width:768px) and (max-width:959px) {
+		
+		.container { width:748px; }
+		
+		/*----*****---- << Header >> ----*****----*/
+		#main-nav ul li a { padding:0px 10px; font-size:14px; }
+		
+		/*----*****---- << Home >> ----*****----*/
+		.rounded-icon span { width:88px; height:88px; max-width:88px; max-height:88px; border-radius:88px; }		
+		.rounded-icon span.write-icon { background-position:-15px -15px; }
+		.rounded-icon span.clock-icon { background-position:-133px -15px; }
+		.rounded-icon span.pen-icon { background-position:-251px -15px; }
+		.rounded-icon span.mail-icon { background-position:-369px -15px; }	
+		.work-flow { background-position:135px 46px; }	
+		
+		/*----*****---- << About >> ----*****----*/		
+		.testimonial-carousel ul#testimonial-carousel li { width:366px; margin-right:14px; }
+		.testimonial-content-wrapper { width:59%; padding-left:26px; margin-left:5px; }
+		
+		/*----*****---- << Team >> ----*****----*/
+		.team-wrapper .rounded-image img { max-width:136px; max-height:136px; border-radius:136px; }		
+		.team-wrapper .rounded-image span { width:136px; height:136px; border-radius:136px; }
+		
+		/*----*****---- << Blog >> ----*****----*/
+		.blog-carousel ul#blog-carousel li { width:360px; margin-right:14px; }
+		.blog-entry .entry-details { width:52%; }
+		.blog-entry .entry-metadata .author, .blog-entry .entry-metadata .tags a { margin-bottom:5px; }
+		.blog-entry .entry-title h5 { font-size:19px; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		.newsletter-form input[type="email"] { width:52%; }
+		.dark-box { width:88%; }
+		
+		/*----*****---- << Main >> ----*****----*/
+		#primary { width:540px; margin-right:28px; }
+		#secondary { width:180px; }
+		
+		/*----*****---- << Widgets >> ----*****----*/
+		.widget.widget_recent_entries .entry-metadata { width:95%; }
+		.widget input[type="email"] { width:87.5%; } 
+		
+	}
+	
+
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.mobile-menu { display:block; }
+		#main-nav ul { display:none; }
+		
+		.container { width: 420px; }
+		
+		/*----*****---- << Columns >> ----*****----*/
+		.column { margin-right:0px; }	
+		.one-fourth, .one-half, .three-fourth, .one-third, .two-third, .one-fifth, .four-fifth, .three-fifth, .two-fifth, .one-sixth, .two-sixth, .three-sixth, .four-sixth, .five-sixth { width:100%; margin-bottom:20px; }			
+		
+		/*----*****---- << Header >> ----*****----*/
+		#header { height:105px; padding-bottom:15px; }
+		#logo { width:100%; text-align:center; margin-bottom:5px; }	
+		#logo img { max-height:35px; }
+		#main-nav { clear:both; width:100%; }
+		
+		/*----*****---- << Main >> ----*****----*/
+		#primary { width:100%; margin-right:0px; }
+		#secondary { width:100%; margin-top:30px; }
+		
+		/*----*****---- << Home >> ----*****----*/	
+		.content .container { margin-top:90px; }
+		.content .pattern { padding-top:0px; }
+		#home.content .container { margin-top:0px; }
+		#home.content { padding-top:100px; }
+		.work-flow { background:none; padding-right:0px; }
+		
+		/*----*****---- << About >> ----*****----*/		
+		.testimonial-carousel ul#testimonial-carousel li { width:420px; margin-right:14px; }
+		.testimonial-content-wrapper { width:60%; }		
+		
+		/*----*****---- << Services >> ----*****----*/	
+		.bordered-box-content span.border { width:94%; } 
+		
+		/*----*****---- << Blog >> ----*****----*/		
+		.blog-carousel ul#blog-carousel li { width:420px; }
+		.blog-entry .entry-details { width:57%; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/		
+		.portfolio { width:100%; margin:20px 0px; }
+		.portfolio .portfolio-image { display:inline-block; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/		
+		.copyright { width:100%; text-align:center; }
+		#footer .social-share { clear:both; width:100%; text-align:center; margin:10px 0px 0px; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/		
+		.newsletter-form input[type="email"] { width:60%; }
+		
+		/*----*****---- << Widgets >> ----*****----*/		
+		.widget input[type="email"]	{ width:95%; }	
+		
+		/*----*****---- << Blog Single >> ----*****----*/		
+		.single-entry .entry-thumb, .entry-metadata { width:100%; margin-right:0px; }
+		.single-entry .social-share { position:inherit; margin-top:20px; }
+		
+		/*----*****---- << Features >> ----*****----*/		
+		.pricing-table.no-space .one-fourth { width:100%; }
+		
+	}
+	
+	/*----*****---- << Mobile >> ----*****----*/	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (min-width: 320px) and (max-width: 479px) {
+		
+		.mobile-menu { display:block; }
+		#main-nav ul { display:none; }
+		
+		.container { width:300px; }
+		
+		/*----*****---- << Headings >> ----*****----*/
+		.main-title h1, .main-title h2, .sub-title h1, .sub-title h2 { font-size:45px; }	
+		
+		/*----*****---- << Columns >> ----*****----*/
+		.column { margin-right:0px; }	
+		.one-fourth, .one-half, .three-fourth, .one-third, .two-third, .one-fifth, .four-fifth, .three-fifth, .two-fifth, .one-sixth, .two-sixth, .three-sixth, .four-sixth, .five-sixth { width:100%; margin-bottom:20px; }			
+		
+		/*----*****---- << Header >> ----*****----*/
+		#header { height:105px; padding-bottom:15px; }
+		#logo { width:100%; text-align:center; margin-bottom:5px; }	
+		#logo img { max-height:35px; }
+		#main-nav { clear:both; width:100%; }
+		
+		/*----*****---- << Main >> ----*****----*/
+		#primary { width:100%; margin-right:0px; }
+		#secondary { width:100%; margin-top:30px; }
+		
+		/*----*****---- << Home >> ----*****----*/	
+		.content .container { margin-top:90px; }
+		.content .pattern { padding-top:0px; }
+		#home.content .container { margin-top:0px; }
+		#home.content { padding-top:100px; }
+		.work-flow { background:none; padding-right:0px; }
+		
+		/*----*****---- << About >> ----*****----*/		
+		.testimonial-wrapper .rounded-image { width:70px; }
+		.testimonial-wrapper .rounded-image img { max-width:60px; max-height:60px; border-radius:60px; }
+		.testimonial-wrapper .rounded-image span { width:60px; height:60px; border-radius:60px; }
+		
+		.testimonial-carousel ul#testimonial-carousel li { width:300px; margin-right:14px; }
+		.testimonial-content-wrapper { width:61%; padding-left:26px; }		
+		.testimonial-content { padding:10px 15px; }
+		.testimonial-content p { font-size:14px; line-height:20px; }
+		.testimonial-content .author-name { margin:0px; }
+		
+		/*----*****---- << Services >> ----*****----*/	
+		.bordered-box-content span.border { width:94%; } 
+		
+		/*----*****---- << Blog >> ----*****----*/		
+		.blog-carousel ul#blog-carousel li { width:300px; }
+		.blog-entry .entry-details { width:57%; }
+		
+		.blog-entry .entry-thumb-meta { width:93%; }
+		.blog-entry .entry-thumb-meta .entry-thumb { margin-bottom:0px; margin-right:10px; }
+		.blog-entry .entry-meta .comments { margin-bottom:15px; }
+		.blog-entry .entry-details { width:100%; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/		
+		.portfolio { width:100%; margin:20px 0px; }
+		.portfolio .portfolio-image { display:inline-block; }
+		
+		/*----*****---- << Footer >> ----*****----*/		
+		.copyright { width:100%; text-align:center; }
+		#footer .social-share { clear:both; width:100%; text-align:center; margin:10px 0px 0px; }
+		
+		/*----*****---- << Widgets >> ----*****----*/		
+		.widget input[type="email"]	{ width:93%; }	
+		
+		/*----*****---- << Blog Single >> ----*****----*/		
+		.single-entry { width:93.2%; }
+		.single-entry .entry-thumb, .entry-metadata { width:100%; margin-right:0px; }
+		.single-entry .social-share { position:inherit; margin-top:20px; }
+		
+		#respond textarea { width:93%; }
+		ul.commentlist li .comment-author img { max-height:58px; max-width:58px; border-radius:58px; }
+		ul.commentlist li { padding-left:70px; }
+		
+		/*----*****---- << Features >> ----*****----*/		
+		.pricing-table.no-space .one-fourth { width:100%; }	
+		ul.tabs-frame li a { padding:0px 10px; line-height:40px; }
+
+		
+		/*----*****---- << Contact >> ----*****----*/		
+		.dark-box { width:86%; }	
+		input[type="text"], input[type="email"], input[type="password"], input.text, textarea, .newsletter-form input[type="email"] { width:93%; }		
+		
+	}
+	
+	/*----*****---- << Mobile >> ----*****----*/	
+
+	/* Crappy Android portrait Size (devices and browsers) */
+	@media only screen and (max-width:320px) {
+		
+		.mobile-menu { display:block; }
+		#main-nav ul { display:none; }
+		
+		.container { width:200px; }		
+		
+		/*----*****---- << Headings >> ----*****----*/
+		.main-title h1, .main-title h2, .sub-title h1, .sub-title h2 { font-size:30px; }	
+		.main-title h6, .sub-title h6 { font-size:14px; }	
+		
+		/*----*****---- << Columns >> ----*****----*/
+		.column { margin-right:0px; }	
+		.one-fourth, .one-half, .three-fourth, .one-third, .two-third, .one-fifth, .four-fifth, .three-fifth, .two-fifth, .one-sixth, .two-sixth, .three-sixth, .four-sixth, .five-sixth { width:100%; margin-bottom:20px; }			
+		
+		/*----*****---- << Header >> ----*****----*/
+		#header { height:105px; padding-bottom:15px; }
+		#logo { width:100%; text-align:center; margin-bottom:5px; }	
+		#logo img { max-height:35px; }
+		#main-nav { clear:both; width:100%; }
+		
+		/*----*****---- << Main >> ----*****----*/
+		#primary { width:100%; margin-right:0px; }
+		#secondary { width:100%; margin-top:30px; }
+		
+		/*----*****---- << Home >> ----*****----*/	
+		.content .container { margin-top:90px; }
+		.content .pattern { padding-top:0px; }
+		#home.content .container { margin-top:0px; }
+		#home.content { padding-top:100px; }
+		.work-flow { background:none; padding-right:0px; }
+		
+		/*----*****---- << About >> ----*****----*/		
+		.testimonial-wrapper .rounded-image { width:50px; }
+		.testimonial-wrapper .rounded-image img { max-width:40px; max-height:40px; border-radius:40px; }
+		.testimonial-wrapper .rounded-image span { width:40px; height:40px; border-radius:40px; }
+		
+		.testimonial-carousel ul#testimonial-carousel li { width:200px; margin-right:0px; }
+		.testimonial-content-wrapper { width:59%; margin-left:2px; padding-left:16px; }		
+		.testimonial-content { padding:10px 15px; }
+		.testimonial-content p { font-size:14px; line-height:20px; }
+		.testimonial-content .author-name { margin:0px; }
+		
+		/*----*****---- << Services >> ----*****----*/	
+		.bordered-box-content span.border { width:91%; }
+		
+		/*----*****---- << Blog >> ----*****----*/		
+		.blog-carousel ul#blog-carousel li { width:200px; }
+		.blog-entry .entry-details { width:57%; }
+		
+		.blog-entry .entry-details { width:100%; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/		
+		.portfolio { width:100%; margin:20px 0px; }
+		.portfolio .portfolio-image { display:inline-block; }
+		
+		/*----*****---- << Footer >> ----*****----*/		
+		.copyright { width:100%; text-align:center; }
+		#footer .social-share { clear:both; width:100%; text-align:center; margin:10px 0px 0px; }
+		
+		/*----*****---- << Widgets >> ----*****----*/		
+		.widget input[type="email"]	{ width:89%; }	
+		
+		/*----*****---- << Blog Single >> ----*****----*/		
+		.single-entry { width:89.2%; }
+		.single-entry .entry-thumb, .entry-metadata { width:100%; margin-right:0px; }
+		.single-entry .social-share { position:inherit; margin-top:20px; }
+		
+		#respond textarea, #respond input[type="text"], #respond input[type="email"] { width:89%; }
+		ul.commentlist li .comment-author img { max-height:58px; max-width:58px; border-radius:58px; }
+		
+		ul.commentlist li .comment-author img { max-height:38px; max-width:38px; border-radius:38px; }
+		ul.commentlist li { padding-left:50px; }
+		ul.commentlist li .comment-body { padding-left:15px; }
+		ul.commentlist li .comment-content { padding:10px 8px; }
+	
+		/*----*****---- << Features >> ----*****----*/		
+		.pricing-table.no-space .one-fourth { width:100%; }	
+		ul.tabs-frame li a { padding:0px 10px; line-height:35px; font-size:11px; }
+
+		
+		/*----*****---- << Contact >> ----*****----*/		
+		.dark-box { width:79%; }	
+		input[type="text"], input[type="email"], input[type="password"], input.text, textarea, .newsletter-form input[type="email"] { width:89%; }		
+		
+		
+	}
